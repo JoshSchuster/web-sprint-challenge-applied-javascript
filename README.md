@@ -28,13 +28,23 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 1. What is the DOM?
 
+The DOM is the Document Object Model. The DOM is made up of html elements and text. Each element and text block form a node. It is built as a 'Tree' data structure because parent elements have nested children elements (or leaves). The DOM is built after a file package containing HTML, CSS, and Javascript is run. We access the DOM via the global Javascript object document. 
+
 2. What is an event?
+
+An event occurs every time a user interacts with a site. Examples are a mouse click, moving the mouse, scrolling a page, pressing a key on the keyboard, etc. 
 
 3. What is an event listener?
 
+An event listener listens for an event and once the event is triggered the callback function fires. 
+
 4. Why would we convert a NodeList into an Array?
 
+Nodelists are "Array-like" because they appear as an array, but can not be used with array mehtods. We would convert a Nodelist into an Array so we can utilize Array methods like .map() and .forEach() .  
+
 5. What is a component?
+
+A component is made of several parts: HTML, CSS, or JavaScript brought together for reuse in a website or application. 
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
